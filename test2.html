@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Blanc</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #rectangle {
+            width: 300px;
+            height: 250px;
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript " src ="fonctionJS.js"></script>
+</head>
+<body>
+    <div id="rectangle">
+        <h2>Test Drupal</h2>
+        <form>
+            <label for="chaine">Entrer l'URL d'un site :</label><br>
+            <input type="text" id="chaine" name="chaine"><br><br>
+            <input type="submit" onClick="afficherCMS(event)" Value="Soumettre">
+        </form>
+        <p>
+            <span id="result"></span>
+        </p>
+    </div>
+</body>
+</html>
